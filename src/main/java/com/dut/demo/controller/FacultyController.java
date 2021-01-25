@@ -1,9 +1,7 @@
 package com.dut.demo.controller;
 
 import com.dut.demo.model.Faculty;
-import com.dut.demo.model.Teacher;
 import com.dut.demo.service.FacultyService;
-import com.dut.demo.service.TeacherService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -12,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin
 @RequestMapping("api/faculty")
 public class FacultyController {
+
     private final FacultyService facultyService;
 
     public FacultyController(FacultyService facultyService) {

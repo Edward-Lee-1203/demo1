@@ -3,6 +3,7 @@ package com.dut.demo.service.impl;
 import com.dut.demo.model.Faculty;
 import com.dut.demo.repository.FacultyRepository;
 import com.dut.demo.service.FacultyService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
