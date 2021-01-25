@@ -1,6 +1,5 @@
-package com.dut.demo.config;
+package com.dut.demo.sercurity;
 
-import com.dut.demo.common.JwtUtils;
 import com.dut.demo.service.impl.UserDetailsServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

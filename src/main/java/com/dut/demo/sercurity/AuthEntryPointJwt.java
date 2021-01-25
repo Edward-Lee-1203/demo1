@@ -1,4 +1,4 @@
-package com.dut.demo.config;
+package com.dut.demo.sercurity;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

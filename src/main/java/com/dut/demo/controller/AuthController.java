@@ -1,7 +1,7 @@
 package com.dut.demo.controller;
 
-import com.dut.demo.common.ERole;
-import com.dut.demo.common.JwtUtils;
+import com.dut.demo.model.ERole;
+import com.dut.demo.sercurity.JwtUtils;
 import com.dut.demo.dto.JwtResponse;
 import com.dut.demo.dto.MessageResponse;
 import com.dut.demo.dto.SignupRequest;

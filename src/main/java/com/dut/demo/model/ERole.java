@@ -1,4 +1,4 @@
-package com.dut.demo.common;
+package com.dut.demo.model;
 
 public enum ERole {
     ROLE_USER,

@@ -1,4 +1,4 @@
-package com.dut.demo.config;
+package com.dut.demo.sercurity;
 
 import com.dut.demo.service.impl.UserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
