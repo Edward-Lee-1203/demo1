@@ -1,4 +1,4 @@
-package com.dut.demo.sercurity;
+package com.dut.demo.config.sercurity;
 
 import com.dut.demo.service.impl.UserDetailsImpl;
 import io.jsonwebtoken.ExpiredJwtException;

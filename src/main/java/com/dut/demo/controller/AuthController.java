@@ -1,7 +1,7 @@
 package com.dut.demo.controller;
 
 import com.dut.demo.model.ERole;
-import com.dut.demo.sercurity.JwtUtils;
+import com.dut.demo.config.sercurity.JwtUtils;
 import com.dut.demo.dto.JwtResponse;
 import com.dut.demo.dto.MessageResponse;
 import com.dut.demo.dto.SignupRequest;
@@ -30,7 +30,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@CrossOrigin
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("/api/auth")
 public class AuthController {

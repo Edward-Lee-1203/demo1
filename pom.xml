@@ -17,6 +17,7 @@
     <properties>
         <java.version>11</java.version>
         <spring.security.version>0.9.1</spring.security.version>
+        <spring.swagger.version>2.6.1</spring.swagger.version>
     </properties>
 
     <dependencies>
@@ -43,6 +44,22 @@
             <scope>test</scope>
         </dependency>
         <!-- End Spring Web -->
+
+        <!-- Spring Swagger 2 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${spring.swagger.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${spring.swagger.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <!-- End Spring Swagger 2 -->
 
         <!-- Spring Security -->
         <dependency>
